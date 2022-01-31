@@ -20,6 +20,10 @@ await roll(130, 50, 1.4);
 //Changes angle & moves to the sound key
 await Sound.Animal.Chicken.play(true);
 //Plays chicken sound
+await roll(220, 50, 1);
+//Moves bolt direction to the red dot
+setMainLed({ r: 255, g: 0, b: 0 }, 10, false);
+await roll(90, 50, 1);
 }
 
 
