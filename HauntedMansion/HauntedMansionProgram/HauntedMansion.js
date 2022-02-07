@@ -24,5 +24,9 @@ setMainLed({ r: 255, g: 0, b: 0 }, 10, false);
 //Sets main Led to Red
 await roll(140, 50, 1.3)
 //Moves Sphero to move twords the next checkpoint
-//await roll(180, 50, 1);
+await roll(45, 50, 2);
+	
+await roll(135, 50, 2);
 
+await Sound.Animal.Dolphin.play(true);
+	
