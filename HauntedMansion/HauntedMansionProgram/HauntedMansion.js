@@ -29,4 +29,11 @@ await roll(135, 50, 1.9);
 //Moves twords checkpoint
 setMainLed({ r: 0, g: 255, b: 0 }, 10, false);
 //sets LED to green
-	
+await roll(25, 50, 1);
+
+await roll(295, 50, 3);
+
+awit Sound.Animal.elephant
+
+
+
