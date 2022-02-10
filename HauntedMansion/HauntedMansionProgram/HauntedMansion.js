@@ -35,5 +35,9 @@ await roll(295, 50, 3);
 
 awit Sound.Animal.elephant
 
+setMainLed({ r: 128, g: 0, b: 128 ), 10, false);
+
+await roll(270, 50, 1);
+
 
 
